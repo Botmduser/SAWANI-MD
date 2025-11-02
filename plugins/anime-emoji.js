@@ -1,7 +1,7 @@
 const { cmd } = require('../command');
 
 cmd({
-    pattern: "😂",
+    pattern: "funny",
     desc: "Displays a dynamic edit msg for fun.",
     category: "tools",
     react: "😂",
@@ -40,7 +40,7 @@ async (conn, mek, m, { from, reply }) => {
 });
 
 cmd({
-    pattern: "❤️",
+    pattern: "love",
     desc: "Displays a dynamic edit msg for fun.",
     category: "tools",
     react: "❤️",
@@ -82,7 +82,7 @@ cmd({
     pattern: "update",
     desc: "Displays a dynamic edit msg for fun.",
     category: "tools",
-    react: "🤡",
+    react: "⏳",
     filename: __filename
 },
 async (conn, mek, m, { from, reply }) => {
@@ -116,10 +116,10 @@ async (conn, mek, m, { from, reply }) => {
 });
 
 cmd({
-    pattern: "<",
+    pattern: "eval",
     desc: "Displays a dynamic edit msg for fun.",
     category: "tools",
-    react: "😶",
+    react: "⚡",
     filename: __filename
 },
 async (conn, mek, m, { from, reply }) => {
@@ -153,7 +153,7 @@ async (conn, mek, m, { from, reply }) => {
 });
 
 cmd({
-    pattern: "🤭",
+    pattern: "hey",
     desc: "Displays a dynamic edit msg for fun.",
     category: "tools",
     react: "🧐",

@@ -267,7 +267,7 @@ async (conn, mek, m, { from, reply }) => {
 });
 
 cmd({
-    pattern: "😘",
+    pattern: "emoji1",
     desc: "Displays a dynamic edit msg for fun.",
     category: "tools",
     react: "💋",

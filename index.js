@@ -253,7 +253,7 @@ m.react("👨‍💻")
 
 //================== WORK TYPE ==================
        
-if(!isOwner && config.MODE === "public") return 
+if(!isOwner && config.MODE === "private") return 
 if(!isOwner && isGroup && config.MODE === "inbox") return 
 if(!isOwner && !isGroup && config.MODE === "groups") return 
 

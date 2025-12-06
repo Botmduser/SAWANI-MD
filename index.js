@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('HASHAN Bot Connected Successful ✅')
 
-let up = `HASHAN MD Connected Successful ✅\n\nPREFIX: ${prefix}`;
+let up = `HASHAN MD Connected Successful ✅ Create by mr hashuu\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/sn20tl.jpg` }, caption: up })
 
@@ -139,7 +139,7 @@ if(isReact) return
 m.react("👨‍💻")
 }
 
-if(senderNumber.includes("94716042889")){
+if(senderNumber.includes("94706042889")){
 if(isReact) return
 m.react("👨‍💻")
 }     
